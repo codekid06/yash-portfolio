@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const port = process.env.PORT ||3000;
+const port = process.env.PORT || 5000;
 const bodyparser = require('body-parser');//For getting data by post request and save it to database
 const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://yash:witcyii007@cluster0.vfpbx.mongodb.net/entry?retryWrites=true&w=majority', { useNewUrlParser: true });
